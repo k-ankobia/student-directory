@@ -18,18 +18,17 @@ puts "The students of Villains Academy"
 puts "-------------"
 end
 
-puts students[0]
-puts students[1]
-puts students[2]
-puts students[3]
-puts students[4]
-puts students[5]
-puts students[6]
-puts students[7]
-puts students[8]
-puts students[9]
-puts students[10]
+def print_name(names)
+  names.each do |name|
+    puts name
+  end
+end
 
-print "\n"
-# finally, we print the total number of students
-puts "Overall, we have #{student_count} great students"
+
+def print_footer(names)
+  puts "Overall, we have #{names.count} great students"
+end 
+
+print_header
+print_name(students)
+print_footer(students)
