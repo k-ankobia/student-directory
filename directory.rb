@@ -24,7 +24,6 @@ def print_name(names)
   end
 end
 
-
 def print_footer(names)
   puts "Overall, we have #{names.count} great students"
 end 
@@ -32,3 +31,5 @@ end
 print_header
 print_name(students)
 print_footer(students)
+
+#This is a test
