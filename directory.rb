@@ -97,7 +97,7 @@ def try_load_students
      puts "Loaded #{@students.count} from #{filename}"
   else # if it doesn't exist
     puts "Sorry, #{filename} doesn't exist."
-    exit # quit the program
+    exit # quit the progra
   end
 end
 
