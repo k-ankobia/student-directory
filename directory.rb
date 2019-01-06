@@ -69,7 +69,7 @@ def print_footer
 end
 
 def save_students
-  # open the file for writing
+  # open the file for writings
   file = File.open("students.csv", "w")
   # iterate over the array of students
   @students.each do |student|
